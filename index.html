@@ -14,7 +14,7 @@
     <header></header>
     <main class="mainContainer">
         <h1 class="heading">Signup</h1>
-        <form action="" method="post" class="signupForm">
+        <form action="index.html" method="post" class="signupForm">
             <input type="text" class="inputField" placeholder="Full Name" required>
             <input type="email" class="inputField" placeholder="Email" required>
             <input type="Password" class="inputField" placeholder="Password" required>
@@ -30,7 +30,8 @@
                 <input type="checkbox" id="check" required>
                 <label for="check">I agree to all the Terms and conditions</label>
             </div>
-            <button class="submitBtn" type="submit">Signup</button>
+            <button onclick="alert('Sign Up Successful');
+            window.location.href = 'index.html';" class="submitBtn" type="submit">Signup</button>
         </form>
     </main>
     <footer></footer>
